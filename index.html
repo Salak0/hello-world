@@ -4,11 +4,41 @@
         <meta charset="UTF-8">
        
         <title>Peter's website</title>
-        
+        <nav>
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+            
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                padding: 12px 16px;
+                z-index: 1;
+            }
+            
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }  
+        </nav>  
     </head>
     <body>
         <h2>Peter's website</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/HhAlP5ETSwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Bath asu</iframe>
+
+        <div style="background-color:blue;" class="dropdown">
+            <span style="background-color:blue;">Mouse over me</span>
+            <div class="dropdown-content">
+            <p><a href="page2.html">Work Experience</a></p>
+            <p><a href="page3.html">My Hobbies</a></p>
+            <p><a href="page4.html">My CV</a></p>
+
+            </div>
+          </div>
+
+        
         <a href="page2.html">page2</a>
 
         
