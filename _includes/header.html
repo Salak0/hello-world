@@ -1,31 +1,14 @@
 <!DOCTYPE html>
 <html>
-    
+    <head>
         <meta charset="UTF-8">
-       
         <title>Peter's website</title>
-        
-    </head>
-    
-        <h2>{{page.title}}</h2>
-        
-
-        <br/>
-        <a href="page2.html">page2</a>
-
-        
-    </body>
-
-
-
-<head>
-    <nav>
         <style>
             .dropdown {
                 position: relative;
                 display: inline-block;
             }
-            
+
             .dropdown-content {
                 display: none;
                 position: absolute;
@@ -35,22 +18,22 @@
                 padding: 12px 16px;
                 z-index: 1;
             }
-            
+
             .dropdown:hover .dropdown-content {
                 display: block;
-            }  
+            }
         </style>
-    </nav>  
-</head>
-<body>
-    <div style="background-color: lightskyblue;" class="dropdown">
-        <span style="background-color:lightskyblue;">Mouse over me</span>
-        <div class="dropdown-content">
-        <p><a href="page2.html">Work Experience</a></p>
-        <p><a href="page3.html">My Hobbies</a></p>
-        <p><a href="page4.html">My CV</a></p>
+    </head>
+    <body>
+        <h2>{{page.title}}</h2>
+        <br/>
+        <div style="background-color: lightskyblue;" class="dropdown">
+            <nav>
+                <span style="background-color:lightskyblue;">Mouse over me</span>
+                <div class="dropdown-content">
+                    <p><a href="page2.html">Work Experience</a></p>
+                    <p><a href="page3.html">My Hobbies</a></p>
+                    <p><a href="page4.html">My CV</a></p>
+                </div>
+            </nav>
         </div>
-        </div>
-
-</body>
-</html>
