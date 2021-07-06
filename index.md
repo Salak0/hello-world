@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html>
-    
-        <meta charset="UTF-8">
-       
-        <title>Peter's website</title>
-        
-    </head>
-    
-        <h2>{{page.title}}</h2>
-        {{header}}
-        
+---
+layout: default
+title: peters hello world
+app-title: hello world
+description: peter's hello world website
+---
 
-        <br/>
-        <a href="page2.html">page2</a>
-
-        
-    </body>
-
-</html>
+{{header}}
