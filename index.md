@@ -5,4 +5,3 @@ app-title: hello world
 description: peter's hello world website
 ---
 
-This is the homepage
