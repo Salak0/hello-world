@@ -5,4 +5,4 @@ app-title: hello world
 description: peter's hello world website
 ---
 
-{{header}}
+This is the homepage
