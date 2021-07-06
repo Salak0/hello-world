@@ -7,7 +7,7 @@
         
     </head>
     
-        <h2>{{page.title}</h2>
+        <h2>{{page.title}}</h2>
         {{header}}
         
 
