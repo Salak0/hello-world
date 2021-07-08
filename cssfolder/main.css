@@ -11,12 +11,11 @@ p{
     font-family: Arial;
 }
 .pagetitle{ 
-    margin-top: 0;
     /*text-decoration: underline;*/
     /*margin-left: auto;
     margin-right: auto;
     background-color: rgb(69, 69, 207);*/
-    padding: 20px;
+
 
 }
 
@@ -27,6 +26,7 @@ p{
 .dropdown {
     position: relative;
     display: block;
+    border-top: 8px rgb(58, 58, 255);
 }
 
 .dropdown-content {
