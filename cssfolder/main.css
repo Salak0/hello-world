@@ -20,6 +20,10 @@ p{
 
 }
 
+.page.title h2{
+  margin: 0;
+}
+
 .dropdown {
     position: relative;
     display: block;
