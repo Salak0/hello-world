@@ -11,6 +11,7 @@ p{
     font-family: Arial;
 }
 .page.title{ 
+    margin-top: 0;
     text-decoration: underline;
     margin-left: auto;
     margin-right: auto;
@@ -42,7 +43,7 @@ body {
     margin: 0;
     display: block;
     flex-direction: column;
-    background-color: lightskyblue;
+    background: linear-gradient(lightskyblue, blue);
 }
   
 header {
