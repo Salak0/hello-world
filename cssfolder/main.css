@@ -14,6 +14,9 @@ p{
     text-decoration: underline;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(69, 69, 207);
+    padding: 20px;
+    width: 400px;
 
 }
 
