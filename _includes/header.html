@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
     
     <body>
-        <h2 class="page.title">{{page.title}}</h2>
+        <div class="page.title"><h2>{{page.title}}</h2></div>
         <br/>
         <div style="background-color: lightskyblue;" class="dropdown">
             <nav>
@@ -17,7 +17,7 @@
                     <!--<p><a href="page2.html">Work Experience</a></p>
                     <p><a href="page3.html">My Hobbies</a></p>
                     <p><a href="page4.html">My CV</a></p>-->
-
+                    
                     {% for page in site.pages %}
                         {% if page.link-url %}
                             <p><a href="{{ page.link-url }}">{{ page.title }}</a></p>
