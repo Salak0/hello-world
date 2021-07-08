@@ -35,7 +35,7 @@ p{
 }
 
 .dropdown:hover .dropdown-content { 
-    display: 100px;
+    display: block;
 }    
 
 body {
