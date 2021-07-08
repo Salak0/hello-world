@@ -43,7 +43,7 @@ body {
     margin: 0;
     display: block;
     flex-direction: column;
-    background: linear-gradient(lightskyblue, blue);
+    background-image: linear-gradient(lightskyblue, blue);
 }
   
 header {
