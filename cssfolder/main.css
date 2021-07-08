@@ -26,6 +26,7 @@ p{
 }
 
 .dropdown-content {
+    border-top: 8px rgb(78, 78, 216);  
     display: none;
     position: absolute;
     background-color: lightskyblue;
