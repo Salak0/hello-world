@@ -1,49 +1,42 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-       
-        <title>Peter's website</title>
-        <nav>
-            <style>
-                .dropdown {
-                    position: relative;
-                    display: inline-block;
-                }
-                
-                .dropdown-content {
-                    display: none;
-                    position: absolute;
-                    background-color: lightskyblue;
-                    min-width: 160px;
-                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                    padding: 12px 16px;
-                    z-index: 1;
-                }
-                
-                .dropdown:hover .dropdown-content {
-                    display: block;
-                }  
-            </style>
-        </nav>  
-    </head>
-    <body>
-        <h2>Peter's website</h2>
+---
+layout: default
+title: "Peter's Website"
+app-title: hello world
+description: peter's hello world website
+---
 
-        <div style="background-color: lightskyblue;" class="dropdown">
-            <span style="background-color:lightskyblue;">Mouse over me</span>
-            <div class="dropdown-content">
-            <p><a href="page2.html">Work Experience</a></p>
-            <p><a href="page3.html">My Hobbies</a></p>
-            <p><a href="page4.html">My CV</a></p>
+<!--WAVES START HERE!-->
 
-            </div>
-          </div>
+<div class="header">
 
-        <br/>
-        <a href="page2.html">page2</a>
-
-        
-    </body>
-
-</html>
+    <!--Content before waves-->
+    <div class="inner-header flex">
+    <!--Just the logo.. Don't mind this-->
+    
+    <h1 class="simpwav">Peter's Website</h1>
+    </div>
+    
+    <!--Waves Container-->
+    <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+    </g>
+    </svg>
+    </div>
+    <!--Waves end-->
+    
+    </div>
+    <!--Header ends-->
+    
+    <!--Content starts-->
+    <div class="content flex">
+        <p class="Psalako"style="color: grey";><b>Peter Krunity-Salako</b></p>
+    </div>

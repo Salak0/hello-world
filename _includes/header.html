@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Peter's website</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="cssfolder/main.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    
+    <body>
+        <div class="pagetitle"><h2>{{page.title}}</h2></div>
+    
+        <div style="background-color: lightskyblue;" class="dropdown">
+            <br/><br/>
+            <nav>
+                <span style="background-color:lightskyblue;">Navigation</span>
+                <div class="dropdown-content">
+                    <!--<p><a href="page2.html">Work Experience</a></p>
+                    <p><a href="page3.html">My Hobbies</a></p>
+                    <p><a href="page4.html">My CV</a></p>-->
+                    
+                    {% for page in site.pages %}
+                        {% if page.link-url %}
+                            <p><a href="{{ page.link-url }}">{{ page.title }}</a></p>
+                        {% else %}
+                            <p><a href="{{ page.url }}">{{ page.title }}</a></p>
+                        {% endif %}
+                    {% endfor %}
+
+
+                </div>
+            </nav>
+        </div>
+        </div>
+
